@@ -255,6 +255,10 @@ body {
     .mainContainer .seminarWillBe p {
         font-size: 3vw;
     }
+
+    .listenToWhat {
+        flex-direction: column;
+    }
 }
 
 
@@ -270,8 +274,10 @@ body {
 
 }
 
+
 .whatYouWillLearnDivDiv1 li {
-    list-style-image: url('images/bullet.png');
+    list-style-image: url('images/tick.jpg');
+    list-style-type: none;
     margin: 10px;
 }
 
