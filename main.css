@@ -20,6 +20,7 @@ body {
     color: white;
     background-color: rgb(255, 166, 0);
     padding: 10px;
+    font-weight: bold;
 }
 
 .orangeBtn {
@@ -47,7 +48,8 @@ body {
 }
 
 .citiesNames {
-    font-size: 1vw;
+    font-size: 0.9vw;
+    font-weight: bold;
 }
 
 .companyLogoBox {
@@ -65,7 +67,7 @@ body {
 }
 
 .seminarIntro {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .eventInfoBox {
@@ -184,6 +186,10 @@ body {
     padding-right: 15%;
 }
 
+.mainContainer h1 {
+    font-size: 2.5vw;
+}
+
 @media screen and (max-width: 800px) {
     .mainContainer {
         padding-left: 2%;
@@ -245,6 +251,10 @@ body {
     .seminarWillBe {
         flex-direction: column;
     }
+
+    .mainContainer .seminarWillBe p {
+        font-size: 3vw;
+    }
 }
 
 
@@ -275,6 +285,19 @@ body {
     font-size: 20px;
 }
 
+.listenToWhat {
+    display: flex;
+}
+
+.listenToWhat div {
+    flex: 1;
+    background-color: rgb(104, 98, 98);
+    color: white;
+    text-align: center;
+    padding: 1vw;
+    margin: 1vw;
+}
+
 .globeEtc {
     display: flex;
 }
@@ -291,8 +314,16 @@ body {
     width: 50px;
 }
 
+.globeEtc h3 {
+    font-weight: 100;
+}
+
 .seminarWillBe {
     display: flex;
+}
+
+.seminarWillBe p {
+    font-size: 20px;
 }
 
 .footer {
